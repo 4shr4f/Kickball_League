@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knowledge Base</title>
+</head>
+<body>
+    <h1>Create an Article</h1>
+    <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" required>
+        <br>
+        <label for="body">Body:</label>
+        <textarea id="body" name="body" required></textarea>
+        <br>
+        <label for="media">Media (Image or Video):</label>
+        <input type="file" id="media" name="media" accept="image/*,video/*">
+        <br>
+        <input type="submit" value="Create Article">
+    </form>
+</body>
+</html>
